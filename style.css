@@ -1,0 +1,108 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.section {
+  width: 1000px;
+  height: 800px;
+  margin: 20px 0 20px 20px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: left;
+  margin: 40px 20px 10px 20px;
+  padding: 0;
+  background: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+
+
+.box {
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-size: 40px;
+}
+
+/* ---------------- FLOAT ---------------- */
+.float-top {
+  overflow: hidden;
+}
+
+.float-left {
+  float: left;
+  width: 25%;
+  height: 520px;
+  background: #b3d9ff;
+  line-height: 450px;
+}
+
+.float-right {
+  float: left;
+  width: 75%;
+  height: 520px;
+  background: #99e6ff;
+  line-height: 450px;
+}
+
+.float-middle {
+  height: 150px;
+  background: #3399ff;
+  color: black;
+  line-height: 75px;
+}
+
+.float-bottom {
+  height: 130px;
+  background: #fff5b3;
+  line-height: 65px;
+}
+
+/* ---------------- FLEXBOX ---------------- */
+.flex-top {
+  display: flex;
+}
+
+.flex-left {
+  flex: 25%;
+  height: 520px;
+  background: #b3d9ff;
+  display: flex;                 
+  align-items: center;          
+  justify-content: center;
+}
+
+.flex-right {
+  flex: 75%;
+  background: #99e6ff;
+  display: flex;                 
+  align-items: center;          
+  justify-content: center;
+}
+
+.flex-middle {
+  height: 150px;
+  background: #3399ff;
+  color: black;
+  display: flex;                 
+  align-items: center;          
+  justify-content: center;
+}
+
+.flex-bottom {
+  height: 130px;
+  background: #fff5b3;
+  display: flex;                 
+  align-items: center;          
+  justify-content: center;
+}
